@@ -14,7 +14,7 @@ import os
 # api_key = os.environ["my_key"]
 
 # Set up Cohere client
-co = cohere.Client("my_key")
+co = cohere.Client(my_key)
 
 
 def generate_idea(industry, temperature):

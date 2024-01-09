@@ -11,10 +11,10 @@ import streamlit as st
 import os
 
 # Cohere API key
-api_key = os.environ["my_key"]
+# api_key = os.environ["my_key"]
 
 # Set up Cohere client
-co = cohere.Client(api_key)
+co = cohere.Client("my_key")
 
 
 def generate_idea(industry, temperature):
